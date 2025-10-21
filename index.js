@@ -1,7 +1,7 @@
 let x = new XMLHttpRequest()
 
 
-x.open("GET", "https://newsapi.org/v2/top-headlines?country=us&category=technology&apiKey=7c59ca07324c4ab2bae434589b8bcbe3");
+x.open("GET", "https://newsapi.org/v2/everything?q=apple&from=2025-10-20&to=2025-10-20&sortBy=popularity&apiKey=7c59ca07324c4ab2bae434589b8bcbe3");
 
 x.send()
 
@@ -27,5 +27,6 @@ function display(list){
             </div>`
     }
     document.querySelector("#myData").innerHTML = cartona
+
 
 }
